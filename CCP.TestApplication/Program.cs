@@ -33,8 +33,8 @@ namespace CCP.TestApplication
 
             //Create a new account
             Entity newAccount = new Entity("account");
-            newAccount["name"] = "Tom's account";
-            newAccount["address1_line2"] = "t.a.v. boekhouding";
+            newAccount["name"] = "New account";
+            newAccount["address1_line2"] = "Line 2";
             var accountId = organizationService.Create(newAccount);
         }
 
